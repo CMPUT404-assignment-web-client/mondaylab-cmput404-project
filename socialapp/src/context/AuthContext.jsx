@@ -21,7 +21,7 @@ export const AuthProvider = ({ children }) => {
   );
   const [loading, setLoading] = useState(true);
   const [loginLoading, setLoginLoading] = useState(null);
-  const baseURL = "https://cs404-project.herokuapp.com/service";
+  const baseURL = "https://mondaylab-cmput404-project.onrender.com/service";
 
   const navigate = useNavigate();
 
